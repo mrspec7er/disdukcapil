@@ -1,0 +1,161 @@
+.App {
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+.f-white {
+  color: white;
+}
+
+hr {
+  border: 0px;
+  border-top: 3px solid rgb(233, 233, 233);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  /* justify-content: center; */
+}
+.btn-array {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content ul {
+  padding-inline-start: 1rem;
+  list-style-type: decimal;
+}
+.content li {
+  margin: 0.5rem;
+  font-size: large;
+}
+.content .ProseMirror {
+  padding: 1rem;
+  border: 3px solid rgb(238, 238, 238);
+  outline: none;
+  color: rgb(65, 65, 65);
+  font-size: 1.3rem;
+  overflow: auto;
+  background-color: #f9fafb;
+  border-radius: 12px;
+}
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: "Start writing...";
+  float: left;
+  color: #ced4da;
+  pointer-events: none;
+  height: 0;
+}
+.ProseMirror img {
+  max-width: 15rem;
+  height: auto;
+}
+.ProseMirror a {
+  color: rgb(0, 51, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+.t-center {
+  text-align: center;
+}
+.modal {
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0.2rem;
+  background: rgb(211, 3, 3);
+  z-index: 10;
+  border-radius: 5px;
+}
+.close {
+  right: 0.5rem;
+  top: 0.5rem;
+}
+.w-100 {
+  width: 100%;
+}
+.unlink {
+  background-color: rgb(154, 4, 4);
+  color: white;
+}
+
+/* //////////////////////How to modal/////// */
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.727);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.howto-modal {
+  padding: 1rem;
+  border-radius: 5px;
+  position: relative;
+  background: rgb(92, 16, 16);
+  max-width: 700px;
+  min-height: max-content;
+}
+.pink-btn {
+  background-color: rgb(230, 0, 146);
+  color: rgb(148, 35, 35);
+  padding: 0.2rem 0.4rem;
+}
+.modal-close {
+  z-index: 100;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+}
+.how-to-use {
+  color: rgb(181, 181, 181);
+  transition: 0.2s all;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.how-to-use:hover {
+  border: 3px solid rgb(196, 196, 196);
+}
+.p1rem {
+  padding: 0.2rem 0.5rem;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+}
+h3 {
+  font-size: large;
+}
+
+/* /////////////////////////////// */
+@media screen and (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+  .btn-array {
+    flex-direction: column;
+  }
+  .h2 {
+    font-size: 1.3rem;
+  }
+  .h3 {
+    font-size: 1rem;
+  }
+  .howto-modal {
+    margin: 5rem 2rem;
+    max-width: 500px;
+  }
+  li {
+    margin: 0.7rem;
+    padding: 0.2rem;
+  }
+}

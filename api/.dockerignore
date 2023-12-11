@@ -1,0 +1,8 @@
+# build
+main
+
+# go.sum
+# go.mod
+
+# temp
+/assets

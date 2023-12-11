@@ -1,0 +1,8 @@
+# build
+main
+
+# environment
+.env
+
+# temp
+/assets

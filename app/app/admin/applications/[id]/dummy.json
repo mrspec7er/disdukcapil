@@ -1,0 +1,235 @@
+{
+  "metadata": {},
+  "data": [
+    {
+      "id": 1,
+      "name": "Akta Kelahiran",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_RA83BCJksexHmwUiauMO6wzwJ77kvYoV0A&usqp=CAU",
+      "outcome": [
+        "akta",
+        "surat",
+        "kartu-keluarga",
+        "sertifikat",
+        "berkas etc"
+      ],
+      "requirementInfo": "<p>Test</>",
+      "createdAt": "2023-11-11",
+      "updatedAt": "2023-11-11",
+      "forms": [
+        {
+          "id": 1,
+          "name": "Identity",
+          "createdAt": "2023-11-11",
+          "updatedAt": "2023-11-11",
+          "fields": [
+            {
+              "id": 1,
+              "name": "Parent Name",
+              "type": "TEXT",
+              "options": [],
+              "form": {
+                "name": "Identity"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Age",
+              "type": "NUMBER",
+              "options": [],
+              "form": {
+                "name": "Identity"
+              }
+            },
+            {
+              "id": 3,
+              "name": "Sex",
+              "type": "OPTIONS",
+              "options": ["Male", "Female"],
+              "form": {
+                "name": "Identity"
+              }
+            }
+          ],
+          "application": {
+            "name": "Akta Kelahiran"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Parent Identity",
+          "createdAt": "2023-11-11",
+          "updatedAt": "2023-11-11",
+          "fields": [
+            {
+              "id": 1,
+              "name": "Child Name",
+              "type": "TEXT",
+              "options": [],
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "form": {
+                "name": "Parent Identity"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Age",
+              "type": "NUMBER",
+              "options": [],
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "form": {
+                "name": "Parent Identity"
+              }
+            },
+            {
+              "id": 3,
+              "name": "Sex",
+              "type": "OPTIONS",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "options": ["Male", "Female"],
+              "form": {
+                "name": "Parent Identity"
+              }
+            }
+          ],
+          "application": {
+            "name": "Akta Kelahiran"
+          }
+        }
+      ],
+      "services": [
+        {
+          "id": 1,
+          "name": "PERUBAHAN AKTA",
+          "stepsInfo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt iusto, earum repellat excepturi in tenetur recusandae odio fuga exercitationem ab velit magnam omnis, libero expedita ut facilis totam nemo! Voluptatibus, corrupti provident.",
+          "createdAt": "2023-11-11",
+          "updatedAt": "2023-11-11",
+          "files": [
+            {
+              "id": 1,
+              "name": "Kartu Keluarga",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN AKTA"
+              }
+            },
+            {
+              "id": 2,
+              "name": "KTP",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN AKTA"
+              }
+            },
+            {
+              "id": 3,
+              "name": "NPWP",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN AKTA"
+              }
+            }
+          ],
+          "application": {
+            "name": "Akta Kelahiran"
+          }
+        },
+        {
+          "id": 2,
+          "name": "PERUBAHAN KTP",
+          "stepsInfo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt iusto, earum repellat excepturi in tenetur recusandae odio fuga exercitationem ab velit magnam omnis, libero expedita ut facilis totam nemo! Voluptatibus, corrupti provident.",
+          "createdAt": "2023-11-11",
+          "updatedAt": "2023-11-11",
+          "files": [
+            {
+              "id": 1,
+              "name": "Kartu Keluarga",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN KTP"
+              }
+            },
+            {
+              "id": 2,
+              "name": "KTP",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN KTP"
+              }
+            },
+            {
+              "id": 3,
+              "name": "NPWP",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN KTP"
+              }
+            }
+          ],
+          "application": {
+            "name": "Akta Kelahiran"
+          }
+        },
+        {
+          "id": 3,
+          "name": "PERUBAHAN KK",
+          "stepsInfo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt iusto, earum repellat excepturi in tenetur recusandae odio fuga exercitationem ab velit magnam omnis, libero expedita ut facilis totam nemo! Voluptatibus, corrupti provident.",
+          "createdAt": "2023-11-11",
+          "updatedAt": "2023-11-11",
+          "files": [
+            {
+              "id": 1,
+              "name": "Kartu Keluarga",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN KK"
+              }
+            },
+            {
+              "id": 2,
+              "name": "KTP",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN KK"
+              }
+            },
+            {
+              "id": 3,
+              "name": "NPWP",
+              "isRequired": true,
+              "createdAt": "2023-11-11",
+              "updatedAt": "2023-11-11",
+              "service": {
+                "name": "PERUBAHAN KK"
+              }
+            }
+          ],
+          "application": {
+            "name": "Akta Kelahiran"
+          }
+        }
+      ]
+    }
+  ]
+}
